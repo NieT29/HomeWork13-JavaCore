@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 public class CustomerService {
     Utils utils = new Utils();
+    Customer customer = new Customer();
 
     public Customer inputCustomer(Scanner scanner) {
-        Customer customer = new Customer();
         System.out.println("Nhập tên chủ hộ");
         customer.setName(utils.inputString(scanner));
         System.out.println("Nhập số nhà");
