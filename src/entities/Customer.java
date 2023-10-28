@@ -5,11 +5,6 @@ public class Customer {
     private int apartmentNumber;
     private double meterCode;
 
-    public Customer(String name, int apartmentNumber, double meterCode) {
-        this.name = name;
-        this.apartmentNumber = apartmentNumber;
-        this.meterCode = meterCode;
-    }
 
     public Customer() {
     }
